@@ -15,7 +15,7 @@ import android.widget.ImageView;
 public class RoundImageView extends ImageView {
 
     private float mRadus = 20;
-    private Bitmap bitmapFrame;
+    private Bitmap bitmapFrame;//god
 
     /*圆角的半径，依次为左上角xy半径，右上角，右下角，左下角*/
     private float[] rids = {mRadus, mRadus, mRadus, mRadus, mRadus, mRadus, mRadus, mRadus};
